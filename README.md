@@ -1,29 +1,28 @@
-# vue-pinia
+## 功能
 
-This template should help get you started developing with Vue 3 in Vite.
+- 單選全選功能，並且可以互相聯動
+- 小計功能
+- 總計功能
+- 商品加減，數量為零時不能再減
+- 持久化
 
-## Recommended IDE Setup
+截圖：
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+![shoping-cart](https://user-images.githubusercontent.com/96987022/224504306-5567b99a-c2a7-470f-a6b4-ceb43e784622.png)
 
-## Customize configuration
+## 建置
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
+安裝依賴
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
+編譯並啟動開發伺服器
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
-
+編譯並打包
 ```sh
 npm run build
 ```
